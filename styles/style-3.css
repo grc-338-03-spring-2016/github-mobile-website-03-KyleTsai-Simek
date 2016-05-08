@@ -22,6 +22,16 @@ body {
     padding: 5.5em 0 0 0;
 }
 
+.top-space-work {
+    padding: 6.25em 0 0 0;
+}
+
+.photo-menu {
+    display: inline-block;
+    position: fixed;
+    background-color: #2C3740;
+}
+
 h1 {
     font-family: 'Roboto', sans-serif;
     color: #ffffff;
@@ -51,9 +61,6 @@ p {
 /*This sets the maximum width of the image to no more than the containing element*/
 img {
     max-width: 100%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 /*Start of Nav menu*/
