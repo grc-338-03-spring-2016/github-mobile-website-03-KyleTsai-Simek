@@ -10,13 +10,16 @@ body {
     color: #ffffff;
 }
 
+.menu {
+    width: 100%;
+    position: fixed;
+}
+
 .about-text {
     padding: 0em 1.5em 0em 1.5em;
 }
-
-.container {
-    height: auto;
-    margin: .5em;
+.top-space {
+    padding: 5.5em 0 0 0;
 }
 
 h1 {
@@ -63,6 +66,7 @@ nav ul {
     width: 100%;
     font-size: 1.2em;
     
+    background-color:#2C3740;
     list-style-type: none;
     margin: 0;
     padding: .15em 0em .15em 0em;
