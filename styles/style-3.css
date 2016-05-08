@@ -2,7 +2,18 @@
 
 /* The container sets the width as a percentage of the browser window and margin 0 auto centers the page
  Note that all measurements are in relative units*/
-	
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-size: .8em;
+    color: #ffffff;
+}
+
+.about-text {
+    padding: 0em 1.5em 0em 1.5em;
+}
+
 .container {
     height: auto;
     margin: .5em;
@@ -21,14 +32,17 @@ h2 {
     font-family: 'Roboto', sans-serif;
     color: #ffffff;
     text-align: center;
-    font-size: 1.2em;
+    font-weight: 300;
+    font-size: 1.4em;
     padding: .4em 0 .4em 0;
 }
 
 p {
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-size: 1em;
-    line-height: 1.6em;
+    font-weight: 100;
+    line-height: 1.2em;
+    margin: 1em 0 1em 0;
 }
 
 /*This sets the maximum width of the image to no more than the containing element*/
