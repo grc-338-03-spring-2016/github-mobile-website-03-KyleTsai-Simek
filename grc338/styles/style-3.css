@@ -37,6 +37,13 @@ body {
     font-weight="500;"
 }
 
+.bold-inline-center {
+    font-family: 'Roboto Medium', sans-serif;
+    font-weight="500;"
+    width: 100%;
+    text-align: center;
+}
+
 .caption {
     
 }
@@ -48,6 +55,7 @@ body {
 
 .work-img {
     max-width: 70%;
+    width: 100%;
     text-align: center;
 }
 
